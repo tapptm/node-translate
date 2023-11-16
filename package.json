@@ -1,0 +1,19 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "tapptm",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.0.1",
+    "translate-google": "^1.5.0"
+  }
+}
